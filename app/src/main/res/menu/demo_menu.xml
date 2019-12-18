@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/test_1"
+        fragment="com.wakehao.demo.fragment.WeChatHomeFragment"
+        icon2="@mipmap/home_selected"
+        android:icon="@mipmap/home_normal"
+        android:title="@string/home"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_2"
+        fragment="com.wakehao.demo.fragment.WeChatContactFragment"
+        icon2="@mipmap/category_selected"
+        android:icon="@mipmap/category_normal"
+        android:title="通讯录"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_3"
+        fragment="com.wakehao.demo.fragment.WeChatFindFragment"
+        icon2="@mipmap/service_selected"
+        android:icon="@mipmap/service_normal"
+        android:title="发现"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_4"
+        fragment="com.wakehao.demo.fragment.WeChatMineFragment"
+        icon2="@mipmap/mine_selected"
+        android:icon="@mipmap/mine_normal"
+        android:title="我"
+        tools:ignore="MissingPrefix" />
+
+    <!--shiftedColor="@color/colorPrimaryDark"-->
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/test_1"
+        fragment="com.anningtex.navbartest.fragment.WeChatHomeFragment"
+        shiftedColor="#258555"
+        android:icon="@drawable/ic_home"
+        android:title="home"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_2"
+        fragment="com.anningtex.navbartest.fragment.WeChatContactFragment"
+        shiftedColor="#851485"
+        android:icon="@drawable/ic_t4"
+        android:title="love"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_3"
+        fragment="com.anningtex.navbartest.fragment.WeChatFindFragment"
+        shiftedColor="#858433"
+        android:icon="@drawable/ic_t5"
+        android:title="bing"
+        tools:ignore="MissingPrefix" />
+
+    <item
+        android:id="@+id/test_4"
+        fragment="com.anningtex.navbartest.fragment.WeChatMineFragment"
+        shiftedColor="#985212"
+        android:icon="@drawable/ic_t3"
+        android:title="mine"
+        tools:ignore="MissingPrefix" />
+</menu>
